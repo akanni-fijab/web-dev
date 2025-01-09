@@ -82,14 +82,49 @@
             Click me for the lyrics 🌎
         </a>
         <p>or listen to a random song</p>
-        <audio controls >
+        <audio controls alt="a random song" >
             <source src="media/Doha.mp3">
         </audio>
         <br>
-        <a href="https://www.youtube.com/watch?v=hgYhws0AHcg" target="_blank" alt="The actual video, links to youtube">
-            <video controls autoplay muted width="500">
+        <a href="https://www.youtube.com/watch?v=hgYhws0AHcg" target="_blank">
+            <video controls width="500" alt="the actual video">
                 <source src="media/utomp3.com - Juice WRLD Empty Out Your Pockets Official Fortnite Video.mp4">
             </video>
         </a>
+        <p><span style="background-color: aqua;color: red;"> 5 Juice Wrld songs</span>
+            <a href="https://www.billboard.com/music/rb-hip-hop/juice-wrld-best-songs-8501125/"  target="_blank"> <sup><small><small>source</small></small></sup>
+            </a>
+        </p>
+        <ol>
+            <a href="https://youtu.be/pqiO8wV4-wc" target="_blank"><li> “Wasted” feat. Lil Uzi Vert (2018)</li></a>
+            <a href="https://youtu.be/Pxhds98iubg" target="_blank"><li>“Lucid Dreams” (2018)</li></a>
+            <a href="https://youtu.be/h3EJICKwITw" target="_blank"><li>“Used To” (2018)</li></a>
+            <a href="https://youtu.be/3JBKp0YbSEc" target="_blank"><li>“All Girls Are the Same” (2018)</li></a>
+            <a href="https://youtu.be/5SejM_hBvMM" target="_blank"><li>“Moonlight” (2017)</li></a>
+        </ol>
+        <p><b><u>My personal top 5</u></b></p>
+
+        <ul>
+            <li><i>Wasted
+                <a href="https://www.youtube.com/watch?v=pqiO8wV4-wc" target="_blank" alt="Link to song">
+                    <button style="font-size: 15px; color: aqua; background-color: purple; border-radius: 30px;">Click to go to full song</button>
+                </a>
+            </i> </li>
+            <li>Floor it</li>
+            <li>Used to</li>
+            <li>Empty out your pockets</li>
+            <li>Already Dead</li>
+
+
+        </ul>
+        <form action="index.php" method="post" >
+            <label for="Username" >Username:</label>
+            <input type="date" id="Username">
+
+            <label for="up_own_song">upload your own song</label>
+            <input id="up_own_song" type="file" accept="audio/mp3, audio/mp4">
+        </form>
+        
+
     </body>
 </html>
