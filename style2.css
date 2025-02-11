@@ -1,8 +1,10 @@
 body{
-    background-image: url(media/gradient_bg.png);
-    background-repeat: repeat-x;
-    
-    
+    background-image: url(media/img_tree.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+   
 }
 
 
@@ -18,7 +20,7 @@ h1{
     font-family: sans-serif;
     font-weight: bold;
     margin-right: 250px;
-    background-image: url(media/img_tree.png);
+    
 }
 
 .back_image{
