@@ -1,0 +1,50 @@
+body{
+    /* background-color: #90ee90; */
+    background-image: url(media/images.png) ;
+
+
+}
+h1{ /*Styles all the h1 tags not just the first one on the DOM*/
+    color: rgb(219, 10, 45);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.city{
+    text-align: center;
+    color: black;
+}
+.bold{
+    font-size: 50px;
+}
+
+#para2{
+    text-align: center;
+    color: palevioletred;
+    font-size: 50px;
+    font-weight: 200;
+    border: 10px solid #000dff ;
+    background-color: rgb(0, 255, 51/*, alpha-- just modifies the color*/);
+    opacity: 80%;/*Modifies the child elements along with the color, can also be percentage*/
+
+    
+}
+p.bold{/*class selector
+    apply this style to a tag with said class attribute*/
+    text-align: end;
+}
+/* p{
+    color: brown;
+    font-family:'Courier New', Courier, monospace;
+
+    
+} */
+img{
+    
+    border:3px solid rgb(255, 0, 0);
+    border-radius: 10%;
+}
+
+#img_bak{
+    background-image: url("https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
