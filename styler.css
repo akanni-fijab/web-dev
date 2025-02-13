@@ -1,0 +1,25 @@
+body{
+    background-color: lightpink;
+    color: #429E9D;
+}
+#cover_art{
+    margin-left: 500px ;
+    border-radius: 500px;
+}
+.style_header{
+    text-align: center;
+    
+}
+h1.style_header{
+    font-size: 400%;
+    font-family: papyrus;
+    font-weight: 700;  
+}
+
+h4.style_header{
+    font-size: 150%;
+    font-family: cursive;
+}
+#lyrics{
+    font-size: 150%;
+}
