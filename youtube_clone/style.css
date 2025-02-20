@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(15,15,15);
+    color: white;
+    font-size: 10px;
+    font-family: Jetbrains Mono;
+    /* margin-right: 0px; */
+    
+    /* position: relative; */
+    
+    /* box-sizing: border-box; */
+    /*   ≡   */
+}
+
+.root{
+    width: 95%;
+    margin: auto;
+    
+    /* background-color:#000; */
+}
+
+.fixed{
+    position: fixed;
+    top:20px;
+
+    /* padding-right: 20px; */
+    margin-top: 0px;
+    /* border-style: solid;
+    background-color: aqua;
+    margin-bottom: 40px; */
+    /* width: 50%; */
+    /* padding: 100px; */
+    
+}
+#hamburger_menu{
+    float: left;
+    padding-right: 10px;
+    /* padding: 20px; */
+    height: 20px;
+}
+#yt-logo{
+    float: left;
+    padding-right: 80px;
+
+    
+}
+
+
+#search_bar{
+    float: left;
+    padding-top: 18px;
+   
+}
+#internal{
+    color: #ffffff;
+    background-color: #121212;
+    width:700px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: left;
+    border-style: solid;
+    border-color: #1E1E1E;
+    position: relative;
+}
+#internal_child_img{
+    position: absolute;
+    right: 0px;
+
+}
+
+#mic{
+    float: left;
+    padding-top: 28px;
+    font-size: 25px ;font-size: 25px ;
+    padding-left: 10px;
+}
+
+#create{
+    float: left;
+    font-size: 17px ;
+    padding-top: 16.5px;
+    padding-left: 15px;
+
+}
+#notificaton{
+    float: left;
+    /* font-size: 17px ; */
+    padding-top: 33px;
+    padding-left: 15px;
+
+}
+
+#user_icon{
+    float: left;
+    padding-top: 33px;
+    padding-left: 15px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+/* .content_container{} */
+
+.content_container .actual_video iframe{
+    border-radius: 13px;
+    float:left;
+    padding-right: 10px;
+    padding-left: 0px;
+    /* padding-bottom: 0px; */
+    margin-bottom: 0px;
+    /* margin-right: 1px; */
+    /* margin-left: 0px; */
+}
+.content_container .watch_filters {
+    font-size:16px;
+    float: left;
+    padding: 0px 10px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    /* width: 25%; */
+}
+.content_container .first_video iframe{
+    border-radius: 13px;
+    float: left;
+}
+.content_container .first_video p{
+    padding-top: 6px;
+    margin-left: 930px; /*since the vidoes are floating, you goot give the dsitance form th left side of the document rather than from the element that appears to beebeside it */
+    font-size: 13px;
+    line-height: 1.8em;
+    margin-bottom: 80px;
+}
+
+.content_container .yt-shorts-icon {
+    float: left;
+
+    font-size:13px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    /* margin-left: px; */
+
+}
+.shorts iframe{ /*Specify the type of element within the div*/
+    float: left;
+    width: 120px;
+    height: 230px;
+    border-radius: 13px;
+    margin-right: 5px;
+    box-sizing: border-box;
+
+}
+#video_title p{
+    font-size: 26.5px;
+}
+.about_video{
+    border-style: solid; 
+    border-width: 1px; 
+    background-color: #272727;
+    border-radius: 10px;
+}
+
+.about_video p{
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #hamburger_menu:hover{
+    background-color: rgb(200,200,200);
+} */
+
