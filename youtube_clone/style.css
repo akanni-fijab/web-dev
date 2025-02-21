@@ -39,17 +39,23 @@ body{
 }
 #yt-logo{
     float: left;
-    padding-right: 80px;
-
-    
+    padding-right: 80px;  
 }
 
+#yt-logo a{
+    text-decoration:none; /*Remove underline*/
+
+}
+#yt-logo a:visited {
+    color:#ffffff;
+
+}
 
 #search_bar{
     float: left;
-    padding-top: 18px;
-   
+    padding-top: 18px; 
 }
+
 #internal{
     color: #ffffff;
     background-color: #121212;
@@ -80,14 +86,13 @@ body{
     font-size: 17px ;
     padding-top: 16.5px;
     padding-left: 15px;
-
 }
+
 #notificaton{
     float: left;
     /* font-size: 17px ; */
     padding-top: 33px;
     padding-left: 15px;
-
 }
 
 #user_icon{
@@ -165,25 +170,3 @@ body{
     box-sizing: border-box;
     padding-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #hamburger_menu:hover{
-    background-color: rgb(200,200,200);
-} */
-
