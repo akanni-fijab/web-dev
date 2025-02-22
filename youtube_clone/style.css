@@ -3,7 +3,7 @@ body{
     color: white;
     font-size: 10px;
     font-family: Jetbrains Mono;
-    /* margin-right: 0px; */
+    /* margin-top: -10px; */
     
     /* position: relative; */
     
@@ -21,9 +21,13 @@ body{
 .fixed{
     position: fixed;
     top:20px;
+    border-style: solid;
+    background-color: #0F0F0F;
+    border-color: #0F0F0F; /*for the lines of the border*/ 
 
     /* padding-right: 20px; */
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    margin-top: -22.6px;
     /* border-style: solid;
     background-color: aqua;
     margin-bottom: 40px; */
@@ -37,9 +41,26 @@ body{
     /* padding: 20px; */
     height: 20px;
 }
+
+#hamburger_menu p:hover{
+    background-color: gray;
+    padding-top: 0px;
+    border-radius:100px;
+
+
+
+
+}
+
+/* #hamburger_menu:hover{
+    background-color: aqua;
+} */
+
 #yt-logo{
     float: left;
-    padding-right: 80px;  
+    padding-right: 80px;
+
+    
 }
 
 #yt-logo a{
@@ -51,11 +72,12 @@ body{
 
 }
 
+
 #search_bar{
     float: left;
-    padding-top: 18px; 
+    padding-top: 18px;
+   
 }
-
 #internal{
     color: #ffffff;
     background-color: #121212;
@@ -78,21 +100,36 @@ body{
     float: left;
     padding-top: 28px;
     font-size: 25px ;font-size: 25px ;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 #create{
     float: left;
     font-size: 17px ;
-    padding-top: 16.5px;
+    padding-top: 5.5px;
     padding-left: 15px;
+    /* background-color: #272727;
+    border-radius: 10px; */
+    /* padding-right: 8px; */
+
+}
+#create p{
+    background-color: #272727;
+    border-radius: 30px;
+    padding: 8px 10px;
+}
+
+#create p:hover{
+    background-color: gray;
+
 }
 
 #notificaton{
     float: left;
     /* font-size: 17px ; */
     padding-top: 33px;
-    padding-left: 15px;
+    padding-left: 10px;
+
 }
 
 #user_icon{
@@ -158,7 +195,40 @@ body{
 #video_title p{
     font-size: 26.5px;
 }
+
+.content_container .user_rating{
+    /* margin-bottom: 20px; */
+    /* float: left; */ /*The container floats left not the elements*/
+    box-sizing: border-box;
+}
+
+.user_rating img{
+    float: left;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+
+.user_rating p{
+    font-size: 20px;
+    float: left; /* you didn't add for the img tag*/
+    /* padding-bottom:3000px; */
+    background-color: #272727;
+    border-radius: 30px;
+    padding:5px 10px;
+    color: black;
+    background-color: white;
+}
+/* .user_rating p:hover{
+    background-color: gray;
+     */
+/* } */
+
+
+
+
 .about_video{
+    /* margin-top: 300px; */
     border-style: solid; 
     border-width: 1px; 
     background-color: #272727;
@@ -170,3 +240,25 @@ body{
     box-sizing: border-box;
     padding-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #hamburger_menu:hover{
+    background-color: rgb(200,200,200);
+} */
+
