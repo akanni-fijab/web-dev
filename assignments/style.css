@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+}
+
+.pages{
+    padding-top: 18px ;
+}
+
+
+
+.pages a{
+    margin: 70px;
+    text-decoration: none;
+    /* padding-top: 200px; */
+}
+
+a:visited{
+    color: black;
+}
+
+.attain_youphone {
+    text-align: center;
+}
+
+.heading_phone{
+    position: relative;
+}
+
+.heading_phone h1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.heading_phone p{
+    position: absolute;
+    top: 16px;
+    right: 0px;
+
+}
+.image_of_phone{
+    margin-top: 100px;
+    margin-left: 150px;
+}
